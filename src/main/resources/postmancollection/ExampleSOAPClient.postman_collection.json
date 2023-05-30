@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "fbe31f09-cefa-44da-8ece-e293accf790d",
+		"name": "ExampleSOAPClient",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12784321"
+	},
+	"item": [
+		{
+			"name": "getCountry",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081/v1/countries?country=Poland",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"v1",
+						"countries"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "Poland"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
